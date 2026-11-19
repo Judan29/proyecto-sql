@@ -28,10 +28,20 @@ nota DECIMAL(4,2) NOT NULL
 );
 
 --Registros iniciales
-INSERT TO Alumnos(nombre,apellido,dni) VALUES
+INSERT INTO Alumnos(nombre,apellido,dni) VALUES
 ('Ana', 'Péres', '40111222'),
 ('Luis', 'Gómez', '50111222'),
 
-INSERT TO Materias(nombre) VALUES
+INSERT INTO Materias(nombre) VALUES
 ('Matemática'),
 ('Lengua'),
+('Historia');
+
+INSERT INTO Examanes(id_alumno, id_materia, fecha, nota) VALUES
+(1, 1, '2026-03-10', 8.50),
+(1, 2, '2026-03-16', 5.00),
+(2, 1, '2026-03-13', 6.00),
+(2, 3, '2026-02-02', 9.25);
+
+
+
