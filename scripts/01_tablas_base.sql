@@ -32,6 +32,6 @@ INSERT TO Alumnos(nombre,apellido,dni) VALUES
 ('Ana', 'Péres', '40111222'),
 ('Luis', 'Gómez', '50111222'),
 
-INSERTO TO Materias(nombre) VALUES
+INSERT TO Materias(nombre) VALUES
 ('Matemática'),
 ('Lengua'),
