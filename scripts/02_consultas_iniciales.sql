@@ -56,3 +56,38 @@ FROM Examenes;
 --funciones de agregación 3
 SELECT MAX(nota), MIN(nota)
 FROM Examenes;
+
+--cantidad de alumnos
+SELECT *
+FROM Alumnos;
+
+--exámenes con nota menor a 6
+SELECT nota
+FROM Examenes
+WHERE nota < 6;
+
+--alumnos cuyo apellido sea distinto de Gómez
+SELECT apellido, nombre
+FROM Alumnos
+WHERE apellido <> 'Gómez';
+
+--usar IS NULL, pero dni esta definido con NOT NULL
+SELECT apellido, nombre, dni
+FROM Alumnos
+WHERE dni IS NULL;
+
+--probar IS NOT NULL
+SELECT apellido, nombre, dni
+FROM Alumnos
+WHERE dni IS NOT NULL;
+
+
+
+
+
+
+
+
+
+
+
