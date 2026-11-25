@@ -79,15 +79,15 @@ SELECT apellido, nombre
 FROM Alumnos
 WHERE apellido <> 'Gómez';
 
---usar IS NULL, pero dni esta definido con NOT NULL
-SELECT apellido, nombre, dni
+--usar IS NULL para mostrar alumnos sin teléfono
+SELECT apellido, nombre, dni, telefono
 FROM Alumnos
-WHERE dni IS NULL;
+WHERE telefono IS NULL;
 
---probar IS NOT NULL
-SELECT apellido, nombre, dni
+--probar IS NOT NULL para mostrar alumnos que tienen teléfono
+SELECT apellido, nombre, dni, telefono
 FROM Alumnos
-WHERE dni IS NOT NULL;
+WHERE telefono IS NOT NULL;
 
 
 
