@@ -14,7 +14,7 @@ Base de datos para registrar alumnos y hacer seguimiento de sus notas y exámene
 - Extensión MSSQL para VS Code
 
 ## Pasos de ejecución
-1. Abrir el Proyecyo en VS Code y conectarse a SQL Server 2025 con la extensión MSSQL.
+1. Abrir el Proyecto en VS Code y conectarse a SQL Server 2025 con la extensión MSSQL.
 2. Abrir `scripts/01_tablas_base.sql` y ejecutarlo. Crea la base de datos, las tablas (Alumnos, Materias, Examenes) y carga los datos de prueba.
 3. Abrir `scripts/02_consultas_iniciales.sql` y ejecutarlo. Muestra los resultados de las consultas de validación.
 
