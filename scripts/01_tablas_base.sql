@@ -1,5 +1,5 @@
 --Creación de la base de datos
-CREATE DATABASE SeguiemientoAlumnos;
+CREATE DATABASE SeguimientoAlumnos;
 GO
 USE SeguimientoAlumnos;
 GO
