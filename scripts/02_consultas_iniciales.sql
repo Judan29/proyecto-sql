@@ -89,7 +89,10 @@ SELECT apellido, nombre, dni, telefono
 FROM Alumnos
 WHERE telefono IS NOT NULL;
 
-
+--comparación
+SELECT nota
+FROM Examenes
+WHERE nota <6 OR nota >9;
 
 
 
