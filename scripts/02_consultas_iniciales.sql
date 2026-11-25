@@ -7,7 +7,7 @@ FROM Alumnos;
 
 --alumnos con exámenes aprobados
 SELECT id_alumno 
-FROM Examanes
+FROM Examenes
 WHERE nota >= 6;
 
 --ordena de mayor a menor
