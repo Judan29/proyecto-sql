@@ -9,7 +9,8 @@ CREATE TABLE Alumnos (
   id_alumno INT IDENTITY (1,1) PRIMARY KEY,
   nombre VARCHAR(50) NOT NULL,
   apellido VARCHAR(50) NOT NULL,
-  dni VARCHAR(10) NOT NULL UNIQUE
+  dni VARCHAR(10) NOT NULL UNIQUE,
+  telefono VARCHAR(50)
 );
 
 --Tabla de materias (todas las que debe cursar)
@@ -28,12 +29,12 @@ CREATE TABLE Examenes (
 );
 
 --Registros iniciales
-INSERT INTO Alumnos(nombre,apellido,dni) VALUES
-  ('Ana', 'Pérez', '40111222'),
-  ('Luis', 'Gómez', '50111222'),
-  ('Guillermo', 'Marconi', '52000111'),
-  ('Vicente', 'García', '49555898'),
-  ('Clara', 'Bernasconi', '76098123');
+INSERT INTO Alumnos(nombre,apellido,dni, telefono) VALUES
+  ('Ana', 'Pérez', '40111222', NULL),
+  ('Luis', 'Gómez', '50111222', NULL),
+  ('Guillermo', 'Marconi', '52000111', '3833121212'),
+  ('Vicente', 'García', '49555898', '1212344556'),
+  ('Clara', 'Bernasconi', '76098123', NULL);
 
 INSERT INTO Materias(nombre) VALUES
   ('Matemática'),
