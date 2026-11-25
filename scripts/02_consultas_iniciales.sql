@@ -57,9 +57,17 @@ FROM Examenes;
 SELECT MAX(nota), MIN(nota)
 FROM Examenes;
 
---cantidad de alumnos
+--muestra la tabla Alumnos completa
 SELECT *
 FROM Alumnos;
+
+--muestra la tabla Examenes completa
+SELECT *
+FROM Examenes;
+
+--muestra la tabla Materias completa
+SELECT *
+FROM Materias;
 
 --exámenes con nota menor a 6
 SELECT nota
